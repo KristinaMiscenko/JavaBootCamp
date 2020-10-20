@@ -28,6 +28,7 @@ public class CalculatorClient {
 		result = normalCalc.multiply(mul);
 		System.out.println("2) Multiplication result is " + result); 
 		
+		
 
 	}
 
