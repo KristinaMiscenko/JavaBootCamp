@@ -26,15 +26,17 @@ public class Calculator {
 
 	private static int add(int x, int y) {
 		int sum = x + y;
-		return sum;
+		return sum;	
 	}
 
 	private static int subtract(int x, int y) {
 		int diff = 0;
 		if (x > y) {
 			// complete the code
+		diff = x - y;
 		} else {
-			// complete the code
+			// complete the code	
+		diff = y - x;
 		}
 
 		return diff;
@@ -54,8 +56,11 @@ public class Calculator {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
 			// complete the code
+		System.out.println("Can not devide, because one of the number is 0");
+		return divValue;
 		} else {
 			// complete the code
+		divValue = x / y;	
 		}
 		return divValue;
 
