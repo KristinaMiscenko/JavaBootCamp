@@ -3,11 +3,14 @@ package sef.module8.activity;
 //This program accepts a user name and checks user's validity
 //The user name is checked against an array of names.
 
-public class CustomExceptionActivityTest {
+import sef.module8.sample.CustomException;
 
+public class CustomExceptionActivityTest {
+	
 	//1 - Type main method and call validateUser() from it.
 	//Call this method with different names to test it 
-
+		
+	
 
 void validateUser(String name)
 {
